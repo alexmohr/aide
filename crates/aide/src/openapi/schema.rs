@@ -73,7 +73,7 @@ mod tests {
             external_docs: None,
             example: None,
         })
-        .unwrap();
+            .unwrap();
 
         assert_eq!(serialized, json!({ "$ref": "test" }));
     }
@@ -89,7 +89,7 @@ mod tests {
             }),
             example: None,
         })
-        .unwrap();
+            .unwrap();
 
         assert_eq!(
             serialized,
@@ -107,7 +107,7 @@ mod tests {
             external_docs: None,
             example: None,
         })
-        .unwrap();
+            .unwrap();
 
         assert_eq!(serialized, json!(true));
     }
@@ -123,7 +123,7 @@ mod tests {
             }),
             example: None,
         })
-        .unwrap();
+            .unwrap();
 
         assert_eq!(
             serialized,
@@ -143,7 +143,7 @@ mod tests {
             external_docs: None,
             example: Some(example.clone()),
         })
-        .unwrap();
+            .unwrap();
 
         assert_eq!(
             serialized,
