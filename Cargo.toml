@@ -3,6 +3,6 @@ members = ["crates/*", "examples/*"]
 resolver = "2"
 
 [workspace.dependencies]
-schemars = { git = "https://github.com/theswiftfox/schemars.git", rev = "d264067", features = [
+schemars = { git = "https://github.com/alexmohr/schemars.git", rev = "81747dc", features = [
     "indexmap2",
 ] }
